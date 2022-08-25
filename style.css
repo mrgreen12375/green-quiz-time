@@ -1,3 +1,7 @@
+main {
+    margin: 0px 150px 0px 150px;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -5,16 +9,21 @@ header {
     margin: 30px;
 }
 
-main {
-    margin: 0px 150px 0px 150px;
+h1{
+    text-align: center;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+li{
+    background-color: rgb(43, 43, 142);
+    padding: 10px;
+    border-radius: 20px;
+    list-style: number inside;
+    color: white;
 }
 
+li:hover{
+    background-color: rgb(117, 117, 205);
+}
 
 ol {
     display: flex;
@@ -24,16 +33,48 @@ ol {
     right: 20px;
 }
 
-button {
-    padding: 15px 100px 15px 100px;
-    border-radius: 20px;
-    background-color: rgb(33, 33, 128);
+button{
+    display: block;
+    text-align: center;
+    background-color: rgb(43, 43, 142);
     color: white;
-    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 40px;
+    margin: auto;
 }
 
-button:hover {
-    background-color: rgb(48, 48, 211);
+main{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+#highScore{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#highScore li{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 10px;
+    margin: 15px;
+    background-color: rgb(43, 43, 142);
+}
+
+#highScore ul{
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 
