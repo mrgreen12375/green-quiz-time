@@ -1,0 +1,78 @@
+main {
+    margin: 0px 150px 0px 150px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    background-color: rgb(43, 43, 142);
+    padding: 10px;
+    border-radius: 20px;
+    list-style: number inside;
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(117, 117, 205);
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    right: 20px;
+}
+
+button{
+    display: block;
+    text-align: center;
+    background-color: rgb(43, 43, 142);
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+main{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+#highScore{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#highScore li{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 10px;
+    margin: 15px;
+    background-color: rgb(43, 43, 142);
+}
+
+#highScore ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
