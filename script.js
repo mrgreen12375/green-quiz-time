@@ -47,7 +47,7 @@ highScore.textContent="View High Scores";
 //created the time text + time remaining.
 time.textContent="Time: " + timeLeft;
 //created the intro text.
-question.textContent = "Coding Quiz Challange.";
+question.textContent = "Coding Quiz Challange";
 //connects to the scores.html.
 highScore.setAttribute("href", "./scores.html");
 //created the begin text

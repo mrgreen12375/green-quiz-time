@@ -1,25 +1,62 @@
+body {
+    background-image: url(./computer-screen.png);
+    background-size: 55%; 
+    background-repeat: no-repeat;
+    background-position: 50% -5%;
+    background-color: rgb(171, 171, 171);
+}
+
 /*set the margins of the main section*/
 main {
+    position: relative;
+    top: 50px;
     margin: 0px 150px 0px 150px;
+    font-family: 'Courier New', Courier, monospace;
 }
 /*set the displan and margins contained in the header*/
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 30px;
+    position: relative;
+    top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
 /*centered the question text*/
 h1{
+    font-size: 25px;
     text-align: center;
 }
 /*styled the options*/
 li{
     background-color: rgb(43, 43, 142);
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
     list-style: number inside;
     color: white;
+    margin: 0px 150px 0px 150px;
 }
 /*styled the options*/
 li:hover{
@@ -42,6 +79,12 @@ button{
     padding: 10px 50px 10px 50px;
     border-radius: 40px;
     margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(117, 117, 205);
 }
 
 main{
@@ -60,9 +103,10 @@ p{
 #highScore{
     display: flex;
     flex-direction: column;
-    align-content: space-between;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top: 60px;
 }
 /*styled the list of the scores*/
 #highScore li{
@@ -77,3 +121,39 @@ p{
     margin-left: 0px;
     padding-left: 0px;
 }
+
+@media screen and (max-width: 1000px) {
+
+    body {
+      background-image: none;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+  
+  }
+
+  @media screen and (max-width: 1400px) {
+
+    h1 {
+        font-size: 15px;
+    }
+
+    header {
+        position: relative;
+        top: 0px;
+    }
+
+    main {
+        position: relative;
+        top: -20px;
+    }
+
+    ol {
+        gap: 10px;
+    }
+
+  
+  }
