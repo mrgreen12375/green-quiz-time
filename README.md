@@ -6,13 +6,13 @@ This project was to creat a quiz with a start button. When the start button is c
 
 ## Mock-up
 
-![alt green quiz time website](/begin-mock-up.png)
-![alt green quiz time website](/questions-mock-up.png)
-![alt green quiz time website](/end-mock-up.png)
-![alt green quiz time website](/high-score-mock-up.png)
+![alt green quiz time website](./assets/images/begin-mock-up.png)
+![alt green quiz time website](./assets/images/questions-mock-up.png)
+![alt green quiz time website](./assets/images/end-mock-up.png)
+![alt green quiz time website](./assets/images/high-score-mock-up.png)
 
 ## Deployment Links
 
-- https://mrgreen12375.github.io/green-quiz-time/
+deploy - https://mrgreen12375.github.io/green-quiz-time/
 
-- https://github.com/mrgreen12375/green-quiz-time
+GitHub repo - https://github.com/mrgreen12375/green-quiz-time

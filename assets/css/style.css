@@ -1,5 +1,5 @@
 body {
-    background-image: url(./computer-screen.png);
+    background-image: url(../images/computer-screen.png);
     background-size: 55%; 
     background-repeat: no-repeat;
     background-position: 50% -5%;
@@ -120,6 +120,14 @@ p{
 #highScore ul{
     margin-left: 0px;
     padding-left: 0px;
+}
+
+#highScore ul li span {
+    margin-left: 10px;
+}
+
+#clear {
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 500px) {
