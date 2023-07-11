@@ -57,7 +57,6 @@ body.appendChild(header);
 header.appendChild(highScore);
 header.appendChild(time);
 body.appendChild(mainSection);
-mainSection.setAttribute('class', '');
 mainSection.appendChild(question);
 mainSection.appendChild(begin);
 mainSection.appendChild(answerLi);
@@ -168,7 +167,7 @@ function gameOver(){
 }
 
 begin.addEventListener("click", function(){
+    begin.remove();
     beginTimer();
     startQuestions();
-    begin.remove();
 });
