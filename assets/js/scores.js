@@ -1,6 +1,6 @@
 //created variables to select the list and store the users scores.
-leaderBoard = document.querySelector('ul');
-var userScores = [];
+var leaderBoard = document.querySelector('ul');
+var clear = document.querySelector('#clear');
 
 //created variable to load the scores in local storage. 
 var storedUsers = JSON.parse(localStorage.getItem("userScores"))
@@ -15,9 +15,9 @@ for(let i=0; i < userScores.length; i++){
     leaderBoard.appendChild(userScore);
 }
 
-function clearHighscores() {
+function clearHighScores() {
     window.localStorage.removeItem('userScores');
     window.location.reload();
-  }
+}
   
-  document.getElementById('clear').onclick = clearHighscores;
+clear.addEventListener('click', clearHighScores);

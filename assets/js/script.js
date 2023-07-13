@@ -150,9 +150,9 @@ function gameOver(){
             score: currentScore,
         }
 
-        newname = userName.value.trim();
-        if(newname){
-            user.name = newname;
+        var newName = userName.value.trim();
+        if(newName){
+            user.name = newName;
         }
 
         var storedUsers = JSON.parse(localStorage.getItem("userScores"))
