@@ -3,15 +3,12 @@ var leaderBoard = document.querySelector('ul');
 var clear = document.querySelector('#clear');
 
 //created variable to load the scores in local storage. 
-var storedUsers = JSON.parse(localStorage.getItem("userScores"))
-    if (storedUsers !== null) {
-        userScores = storedUsers;
-}
+var userScores = JSON.parse(localStorage.getItem("userScores"));
 
 //Created for loop to create the list of users stored scores. 
 for(let i=0; i < userScores.length; i++){
     var userScore = document.createElement('li');
-    userScore.innerHTML = userScores[i].name + "<span> SCORE: "+userScores[i].score+"</span>";
+    userScore.innerHTML = userScores[i].name + "<span> SCORE: " + userScores[i].score + "</span>";
     leaderBoard.appendChild(userScore);
 }
 
